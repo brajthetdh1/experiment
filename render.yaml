@@ -6,9 +6,11 @@ services:
       dockerfile: Dockerfile
     envVars:
       - key: SPRING_PROFILES_ACTIVE
-        value: production
-      - key: PORT
-        value: 8080
-      - key: SERVER_PORT
-        value: 8080
+        value: prod
+      - key: DATABASE_URL
+        value: postgresql://experiment_iixl_user:cI7CbFcxcSm0whLwPK6MMOMXHxN6FYLH@dpg-d3rjv7s9c44c73aotdq0-a.oregon-postgres.render.com:5432/experiment_iixl
+      - key: DB_USERNAME
+        value: experiment_iixl_user
+      - key: DB_PASSWORD
+        value: cI7CbFcxcSm0whLwPK6MMOMXHxN6FYLH
     plan: free
