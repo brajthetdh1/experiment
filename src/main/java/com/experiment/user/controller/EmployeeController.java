@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/employees")
 @CrossOrigin(origins = {
-        "https://experiment-gamma.vercel.app",
+        "https://profile.sciencegeek.in",
         "http://localhost:3000",
         "http://localhost:5173"
 }) // Add this line
